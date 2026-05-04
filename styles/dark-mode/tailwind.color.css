@@ -89,27 +89,27 @@
   --color-icon-interactive-state-icon-interactive-active: var(--color-netural-900);
   --color-icon-interactive-state-icon-selected: var(--color-primary-400);
   /* Extremely subtle tint for large sections or hover states on white. */
-  --color-alpha-surface-alpha-surface-alpha-lowest: var(--color-white-alpha-50);
+  --color-alpha-surface-alpha-surface-alpha-lowest: var(--color-white-alpha-5);
   /* Subtle container backgrounds or "Sunken" effects. */
-  --color-alpha-surface-alpha-surface-alpha-low: var(--color-white-alpha-100);
+  --color-alpha-surface-alpha-surface-alpha-low: var(--color-white-alpha-10);
   /* Standard component backgrounds (e.g., search bars, tags). */
-  --color-alpha-surface-alpha-surface-alpha-medium: var(--color-white-alpha-300);
+  --color-alpha-surface-alpha-surface-alpha-medium: var(--color-white-alpha-30);
   /* High-contrast overlays or "Glass" card effects. */
-  --color-alpha-surface-alpha-surface-alpha-high: var(--color-white-alpha-400);
+  --color-alpha-surface-alpha-surface-alpha-high: var(--color-white-alpha-40);
   /* Universal hover overlay for buttons and list items. */
-  --color-alpha-interactive-alpha-state-alpha-hover: var(--color-white-alpha-100);
+  --color-alpha-interactive-alpha-state-alpha-hover: var(--color-white-alpha-10);
   /* Universal pressed/active state overlay. */
-  --color-alpha-interactive-alpha-state-alpha-active: var(--color-white-alpha-200);
+  --color-alpha-interactive-alpha-state-alpha-active: var(--color-white-alpha-20);
   /* Transparent brand tint for selected navigation or checkboxes. */
   --color-alpha-interactive-alpha-state-alpha-selected: var(--color-primary-alpha-a100);
   /* Borders for inactive inputs or buttons. */
   --border-color-alpha-interactive-alpha-disabled: var(--color-netural-800);
   /* Hairline dividers that disappear on dark backgrounds. */
-  --border-color-alpha-subtle: var(--color-white-alpha-200);
+  --border-color-alpha-subtle: var(--color-white-alpha-20);
   /* Standard borders for inputs and cards. */
-  --border-color-alpha-default: var(--color-white-alpha-a100);
+  --border-color-alpha-default: var(--color-white-alpha-40);
   /* Accessible borders for high-contrast UI elements. */
-  --border-color-alpha-strong: var(--color-white-alpha-600);
+  --border-color-alpha-strong: var(--color-white-alpha-60);
   /* Backgrounds for success alerts (allows the green to "glow"). */
   --color-alpha-feedback-alpha-surface-alpha-success: var(--color-green-alpha-200);
   /* Backgrounds for error banners. */
@@ -132,9 +132,9 @@
   /* Highest layer; often with a shadow. */
   --color-surface-base-surface-overlay: var(--color-netural-800);
   /* Recessed areas like search bars. */
-  --color-surface-base-surface-sunken: var(--color-netural-950);
+  --color-surface-base-surface-sunken: var(--color-netural-900);
   /* The "bottom" layer. */
-  --color-surface-base-surface-pure: var(--color-netural-950);
+  --color-surface-base-surface-pure: var(--color-netural-800);
   /* The "bottom" layer. */
   --color-surface-base-surface-disable: var(--color-netural-800);
   /* Subtle shift on mouse-over. */
@@ -235,23 +235,85 @@
   /* system/dialog-background semantic color */
   --bg-color-system-dialog-background: var(--color-pure-color-white);
   /* system/scrim semantic color */
-  --color-system-scrim: var(--color-black-alpha-500);
+  --color-system-scrim: var(--color-black-alpha-50);
   /* system/overlay-light semantic color */
-  --color-system-overlay-light: var(--color-white-alpha-500);
+  --color-system-overlay-light: var(--color-white-alpha-50);
   /* state/hover semantic color */
-  --color-state-hover: var(--color-black-alpha-50);
+  --color-state-hover: var(--color-black-alpha-5);
   /* state/focus semantic color */
-  --color-state-focus: var(--color-black-alpha-200);
+  --color-state-focus: var(--color-black-alpha-20);
   /* state/pressed semantic color */
-  --color-state-pressed: var(--color-black-alpha-200);
+  --color-state-pressed: var(--color-black-alpha-20);
   /* state/dragged semantic color */
-  --color-state-dragged: var(--color-black-alpha-100);
+  --color-state-dragged: var(--color-black-alpha-10);
   /* state/disabled-container semantic color */
-  --color-state-disabled-container: var(--color-black-alpha-200);
+  --color-state-disabled-container: var(--color-black-alpha-20);
   /* state/disabled-content semantic color */
-  --color-state-disabled-content: var(--color-black-alpha-600);
+  --color-state-disabled-content: var(--color-black-alpha-60);
   /* High contrast floating elements. */
   --color-surface-inverse-surface-inverse: var(--color-pure-color-white);
   /* Softer high-contrast elements. */
   --color-surface-inverse-surface-inverse-subtle: var(--color-netural-100);
+  --color-surface-apha-back-apha-5: var(--color-black-alpha-5);
+  --color-surface-apha-back-apha-inverse-5: var(--color-black-alpha-90);
+  --color-surface-apha-back-white-inverse-5: var(--color-white-alpha-90);
+  --color-surface-apha-back-white-inverse-10: var(--color-white-alpha-80);
+  --color-surface-apha-back-white-inverse-20: var(--color-white-alpha-70);
+  --color-surface-apha-back-white-inverse-30: var(--color-white-alpha-60);
+  --color-surface-apha-back-white-inverse-40: var(--color-white-alpha-50);
+  --color-surface-apha-back-white-inverse-50: var(--color-white-alpha-40);
+  --color-surface-apha-back-white-inverse-60: var(--color-white-alpha-30);
+  --color-surface-apha-back-white-inverse-70: var(--color-white-alpha-20);
+  --color-surface-apha-back-white-inverse-80: var(--color-white-alpha-10);
+  --color-surface-apha-back-white-inverse-90: var(--color-white-alpha-5);
+  --color-surface-apha-back-apha-inverse-10: var(--color-black-alpha-80);
+  --color-surface-apha-back-apha-inverse-20: var(--color-black-alpha-70);
+  --color-surface-apha-back-apha-inverse-30: var(--color-black-alpha-60);
+  --color-surface-apha-back-apha-inverse-40: var(--color-black-alpha-50);
+  --color-surface-apha-back-apha-inverse-50: var(--color-black-alpha-40);
+  --color-surface-apha-back-apha-inverse-60: var(--color-black-alpha-30);
+  --color-surface-apha-back-apha-inverse-70: var(--color-black-alpha-20);
+  --color-surface-apha-back-apha-inverse-80: var(--color-black-alpha-10);
+  --color-surface-apha-back-apha-inverse-90: var(--color-black-alpha-5);
+  --color-surface-apha-back-apha-10: var(--color-black-alpha-10);
+  --color-surface-apha-back-apha-20: var(--color-black-alpha-20);
+  --color-surface-apha-back-apha-30: var(--color-black-alpha-30);
+  --color-surface-apha-back-apha-40: var(--color-black-alpha-40);
+  --color-surface-apha-back-apha-50: var(--color-black-alpha-50);
+  --color-surface-apha-back-apha-60: var(--color-black-alpha-60);
+  --color-surface-apha-back-apha-70: var(--color-black-alpha-70);
+  --color-surface-apha-back-apha-80: var(--color-black-alpha-80);
+  --color-surface-apha-back-apha-90: var(--color-black-alpha-90);
+  --color-surface-apha-back-apha-pure: var(--color-pure-color-black);
+  --color-surface-apha-white-apha-5: var(--color-white-alpha-5);
+  --color-surface-apha-white-apha-10: var(--color-white-alpha-10);
+  --color-surface-apha-white-apha-20: var(--color-white-alpha-20);
+  --color-surface-apha-white-apha-30: var(--color-white-alpha-30);
+  --color-surface-apha-white-apha-40: var(--color-white-alpha-40);
+  --color-surface-apha-white-apha-50: var(--color-white-alpha-50);
+  --color-surface-apha-white-apha-60: var(--color-white-alpha-60);
+  --color-surface-apha-white-apha-70: var(--color-white-alpha-70);
+  --color-surface-apha-white-apha-80: var(--color-white-alpha-80);
+  --color-surface-apha-white-apha-90: var(--color-white-alpha-90);
+  --color-surface-apha-white-apha-pure: var(--color-pure-color-white);
+  --color-surface-apha-white-apha-inverse-5: var(--color-white-alpha-90);
+  --color-surface-apha-white-apha-inverse-10: var(--color-white-alpha-80);
+  --color-surface-apha-white-apha-inverse-20: var(--color-white-alpha-70);
+  --color-surface-apha-white-apha-inverse-30: var(--color-white-alpha-60);
+  --color-surface-apha-white-apha-inverse-40: var(--color-white-alpha-50);
+  --color-surface-apha-white-apha-inverse-50: var(--color-white-alpha-40);
+  --color-surface-apha-white-apha-inverse-60: var(--color-white-alpha-30);
+  --color-surface-apha-white-apha-inverse-70: var(--color-white-alpha-20);
+  --color-surface-apha-white-apha-inverse-80: var(--color-white-alpha-10);
+  --color-surface-apha-white-apha-inverse-90: var(--color-white-alpha-5);
+  --color-surface-apha-white-black-inverse-5: var(--color-black-alpha-90);
+  --color-surface-apha-white-black-inverse-10: var(--color-black-alpha-80);
+  --color-surface-apha-white-black-inverse-20: var(--color-black-alpha-70);
+  --color-surface-apha-white-black-inverse-30: var(--color-black-alpha-60);
+  --color-surface-apha-white-black-inverse-40: var(--color-black-alpha-50);
+  --color-surface-apha-white-black-inverse-50: var(--color-black-alpha-40);
+  --color-surface-apha-white-black-inverse-60: var(--color-black-alpha-30);
+  --color-surface-apha-white-black-inverse-70: var(--color-black-alpha-20);
+  --color-surface-apha-white-black-inverse-80: var(--color-black-alpha-10);
+  --color-surface-apha-white-black-inverse-90: var(--color-black-alpha-5);
 }
