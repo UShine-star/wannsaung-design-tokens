@@ -541,61 +541,45 @@
   --color-grey-900: #263238;
   --color-grey-950: #1e282d;
   /* Generated from Material Color System */
-  --color-black-alpha-50: #0000000a;
+  --color-black-alpha-5: #0000000d;
   /* Generated from Material Color System */
-  --color-black-alpha-100: #00000014;
+  --color-black-alpha-10: #0000001a;
   /* Generated from Material Color System */
-  --color-black-alpha-200: #0000001f;
+  --color-black-alpha-20: #00000033;
   /* Generated from Material Color System */
-  --color-black-alpha-300: #00000029;
+  --color-black-alpha-30: #0000004d;
   /* Generated from Material Color System */
-  --color-black-alpha-400: #0000003d;
+  --color-black-alpha-40: #00000066;
   /* Generated from Material Color System */
-  --color-black-alpha-500: #00000052;
+  --color-black-alpha-50: #00000080;
   /* Generated from Material Color System */
-  --color-black-alpha-600: #00000061;
+  --color-black-alpha-60: #00000099;
   /* Generated from Material Color System */
-  --color-black-alpha-700: #0000008a;
+  --color-black-alpha-70: #000000b2;
   /* Generated from Material Color System */
-  --color-black-alpha-800: #00000099;
+  --color-black-alpha-80: #000000cc;
   /* Generated from Material Color System */
-  --color-black-alpha-900: #000000de;
+  --color-black-alpha-90: #000000e5;
   /* Generated from Material Color System */
-  --color-black-alpha-a100: #00000033;
+  --color-white-alpha-5: #ffffff0d;
   /* Generated from Material Color System */
-  --color-black-alpha-a200: #00000073;
+  --color-white-alpha-10: #ffffff1a;
   /* Generated from Material Color System */
-  --color-black-alpha-a400: #000000b2;
+  --color-white-alpha-20: #ffffff33;
   /* Generated from Material Color System */
-  --color-black-alpha-a700: #000000f2;
+  --color-white-alpha-30: #ffffff4d;
   /* Generated from Material Color System */
-  --color-white-alpha-50: #ffffff0a;
+  --color-white-alpha-40: #ffffff66;
   /* Generated from Material Color System */
-  --color-white-alpha-100: #ffffff14;
+  --color-white-alpha-50: #ffffff80;
   /* Generated from Material Color System */
-  --color-white-alpha-200: #ffffff1f;
+  --color-white-alpha-60: #ffffff99;
   /* Generated from Material Color System */
-  --color-white-alpha-300: #ffffff29;
+  --color-white-alpha-70: #ffffffb2;
   /* Generated from Material Color System */
-  --color-white-alpha-400: #ffffff3d;
+  --color-white-alpha-80: #ffffffcc;
   /* Generated from Material Color System */
-  --color-white-alpha-500: #ffffff52;
-  /* Generated from Material Color System */
-  --color-white-alpha-600: #ffffff61;
-  /* Generated from Material Color System */
-  --color-white-alpha-700: #ffffff8a;
-  /* Generated from Material Color System */
-  --color-white-alpha-800: #ffffff99;
-  /* Generated from Material Color System */
-  --color-white-alpha-900: #ffffffde;
-  /* Generated from Material Color System */
-  --color-white-alpha-a100: #ffffff33;
-  /* Generated from Material Color System */
-  --color-white-alpha-a200: #ffffff80;
-  /* Generated from Material Color System */
-  --color-white-alpha-a400: #ffffffb2;
-  /* Generated from Material Color System */
-  --color-white-alpha-a700: #fffffff2;
+  --color-white-alpha-90: #ffffffe5;
   /* Generated from Material Color System */
   --color-primary-alpha-50: #10c0df0a;
   /* Generated from Material Color System */
@@ -708,6 +692,48 @@
   --color-yellow-alpha-a400: #ffeb3bb2;
   /* Generated from Material Color System */
   --color-yellow-alpha-a700: #ffeb3bf2;
+  /* High-contrast overlays or "Glass" card effects. */
+  --color-alpha-surface-alpha-surface-alpha-high: #00000033;
+  /* Generated from Material Color System */
+  --color-black-alpha-inverse-5: #0000000d;
+  /* Generated from Material Color System */
+  --color-black-alpha-inverse-10: #0000001a;
+  /* Generated from Material Color System */
+  --color-black-alpha-inverse-20: #00000033;
+  /* Generated from Material Color System */
+  --color-black-alpha-inverse-30: #0000004d;
+  /* Generated from Material Color System */
+  --color-black-alpha-inverse-40: #00000066;
+  /* Generated from Material Color System */
+  --color-black-alpha-inverse-50: #00000080;
+  /* Generated from Material Color System */
+  --color-black-alpha-inverse-60: #00000099;
+  /* Generated from Material Color System */
+  --color-black-alpha-inverse-70: #000000b2;
+  /* Generated from Material Color System */
+  --color-black-alpha-inverse-80: #000000cc;
+  /* Generated from Material Color System */
+  --color-black-alpha-inverse-900: #000000e5;
+  /* Generated from Material Color System */
+  --color-white-alpha-inverse-5: #ffffff0d;
+  /* Generated from Material Color System */
+  --color-white-alpha-inverse-10: #ffffff1a;
+  /* Generated from Material Color System */
+  --color-white-alpha-inverse-20: #ffffff33;
+  /* Generated from Material Color System */
+  --color-white-alpha-inverse-30: #ffffff4d;
+  /* Generated from Material Color System */
+  --color-white-alpha-inverse-40: #ffffff66;
+  /* Generated from Material Color System */
+  --color-white-alpha-inverse-50: #ffffff80;
+  /* Generated from Material Color System */
+  --color-white-alpha-inverse-60: #ffffff99;
+  /* Generated from Material Color System */
+  --color-white-alpha-inverse-70: #ffffffb2;
+  /* Generated from Material Color System */
+  --color-white-alpha-inverse-80: #ffffffcc;
+  /* Generated from Material Color System */
+  --color-white-alpha-inverse-900: #ffffffe5;
   --border-color-inverse-surface: var(--color-netural-900);
   /* Standard borders for cards, sections, and dividers. */
   --border-color-core-layout-default: var(--color-netural-200);
@@ -792,27 +818,25 @@
   --color-icon-interactive-state-icon-interactive-active: var(--color-netural-100);
   --color-icon-interactive-state-icon-selected: var(--color-primary-600);
   /* Extremely subtle tint for large sections or hover states on white. */
-  --color-alpha-surface-alpha-surface-alpha-lowest: var(--color-black-alpha-50);
+  --color-alpha-surface-alpha-surface-alpha-lowest: var(--color-black-alpha-5);
   /* Subtle container backgrounds or "Sunken" effects. */
-  --color-alpha-surface-alpha-surface-alpha-low: var(--color-black-alpha-100);
+  --color-alpha-surface-alpha-surface-alpha-low: var(--color-black-alpha-10);
   /* Standard component backgrounds (e.g., search bars, tags). */
-  --color-alpha-surface-alpha-surface-alpha-medium: var(--color-black-alpha-200);
-  /* High-contrast overlays or "Glass" card effects. */
-  --color-alpha-surface-alpha-surface-alpha-high: var(--color-black-alpha-a100);
+  --color-alpha-surface-alpha-surface-alpha-medium: var(--color-black-alpha-20);
   /* Universal hover overlay for buttons and list items. */
-  --color-alpha-interactive-alpha-state-alpha-hover: var(--color-black-alpha-50);
+  --color-alpha-interactive-alpha-state-alpha-hover: var(--color-black-alpha-5);
   /* Universal pressed/active state overlay. */
-  --color-alpha-interactive-alpha-state-alpha-active: var(--color-black-alpha-100);
+  --color-alpha-interactive-alpha-state-alpha-active: var(--color-black-alpha-10);
   /* Transparent brand tint for selected navigation or checkboxes. */
   --color-alpha-interactive-alpha-state-alpha-selected: var(--color-primary-alpha-200);
   /* Borders for inactive inputs or buttons. */
   --border-color-alpha-interactive-alpha-disabled: var(--color-netural-100);
   /* Hairline dividers that disappear on dark backgrounds. */
-  --border-color-alpha-subtle: var(--color-black-alpha-100);
+  --border-color-alpha-subtle: var(--color-black-alpha-10);
   /* Standard borders for inputs and cards. */
-  --border-color-alpha-default: var(--color-black-alpha-300);
+  --border-color-alpha-default: var(--color-black-alpha-30);
   /* Accessible borders for high-contrast UI elements. */
-  --border-color-alpha-strong: var(--color-black-alpha-500);
+  --border-color-alpha-strong: var(--color-black-alpha-50);
   /* Backgrounds for success alerts (allows the green to "glow"). */
   --color-alpha-feedback-alpha-surface-alpha-success: var(--color-green-alpha-200);
   /* Backgrounds for error banners. */
@@ -938,23 +962,85 @@
   /* system/dialog-background semantic color */
   --bg-color-system-dialog-background: var(--color-pure-color-white);
   /* system/scrim semantic color */
-  --color-system-scrim: var(--color-black-alpha-500);
+  --color-system-scrim: var(--color-black-alpha-50);
   /* system/overlay-light semantic color */
-  --color-system-overlay-light: var(--color-white-alpha-500);
+  --color-system-overlay-light: var(--color-white-alpha-50);
   /* state/hover semantic color */
-  --color-state-hover: var(--color-black-alpha-50);
+  --color-state-hover: var(--color-black-alpha-5);
   /* state/focus semantic color */
-  --color-state-focus: var(--color-black-alpha-200);
+  --color-state-focus: var(--color-black-alpha-20);
   /* state/pressed semantic color */
-  --color-state-pressed: var(--color-black-alpha-200);
+  --color-state-pressed: var(--color-black-alpha-20);
   /* state/dragged semantic color */
-  --color-state-dragged: var(--color-black-alpha-100);
+  --color-state-dragged: var(--color-black-alpha-10);
   /* state/disabled-container semantic color */
-  --color-state-disabled-container: var(--color-black-alpha-200);
+  --color-state-disabled-container: var(--color-black-alpha-20);
   /* state/disabled-content semantic color */
-  --color-state-disabled-content: var(--color-black-alpha-600);
+  --color-state-disabled-content: var(--color-black-alpha-60);
   /* High contrast floating elements. */
   --color-surface-inverse-surface-inverse: var(--color-netural-900);
   /* Softer high-contrast elements. */
   --color-surface-inverse-surface-inverse-subtle: var(--color-netural-800);
+  --color-surface-apha-back-apha-5: var(--color-black-alpha-5);
+  --color-surface-apha-back-apha-inverse-5: var(--color-black-alpha-5);
+  --color-surface-apha-back-white-inverse-5: var(--color-pure-color-black);
+  --color-surface-apha-back-white-inverse-10: var(--color-pure-color-black);
+  --color-surface-apha-back-white-inverse-20: var(--color-pure-color-black);
+  --color-surface-apha-back-white-inverse-30: var(--color-pure-color-black);
+  --color-surface-apha-back-white-inverse-40: var(--color-pure-color-black);
+  --color-surface-apha-back-white-inverse-50: var(--color-pure-color-black);
+  --color-surface-apha-back-white-inverse-60: var(--color-pure-color-black);
+  --color-surface-apha-back-white-inverse-70: var(--color-pure-color-black);
+  --color-surface-apha-back-white-inverse-80: var(--color-pure-color-black);
+  --color-surface-apha-back-white-inverse-90: var(--color-black-alpha-90);
+  --color-surface-apha-back-apha-inverse-10: var(--color-black-alpha-10);
+  --color-surface-apha-back-apha-inverse-20: var(--color-black-alpha-20);
+  --color-surface-apha-back-apha-inverse-30: var(--color-black-alpha-30);
+  --color-surface-apha-back-apha-inverse-40: var(--color-black-alpha-40);
+  --color-surface-apha-back-apha-inverse-50: var(--color-black-alpha-50);
+  --color-surface-apha-back-apha-inverse-60: var(--color-black-alpha-60);
+  --color-surface-apha-back-apha-inverse-70: var(--color-black-alpha-70);
+  --color-surface-apha-back-apha-inverse-80: var(--color-black-alpha-80);
+  --color-surface-apha-back-apha-inverse-90: var(--color-black-alpha-90);
+  --color-surface-apha-back-apha-10: var(--color-black-alpha-10);
+  --color-surface-apha-back-apha-20: var(--color-black-alpha-20);
+  --color-surface-apha-back-apha-30: var(--color-black-alpha-30);
+  --color-surface-apha-back-apha-40: var(--color-black-alpha-40);
+  --color-surface-apha-back-apha-50: var(--color-black-alpha-50);
+  --color-surface-apha-back-apha-60: var(--color-black-alpha-60);
+  --color-surface-apha-back-apha-70: var(--color-black-alpha-70);
+  --color-surface-apha-back-apha-80: var(--color-black-alpha-80);
+  --color-surface-apha-back-apha-90: var(--color-black-alpha-90);
+  --color-surface-apha-back-apha-pure: var(--color-pure-color-black);
+  --color-surface-apha-white-apha-5: var(--color-white-alpha-5);
+  --color-surface-apha-white-apha-10: var(--color-white-alpha-10);
+  --color-surface-apha-white-apha-20: var(--color-white-alpha-20);
+  --color-surface-apha-white-apha-30: var(--color-white-alpha-30);
+  --color-surface-apha-white-apha-40: var(--color-white-alpha-40);
+  --color-surface-apha-white-apha-50: var(--color-white-alpha-50);
+  --color-surface-apha-white-apha-60: var(--color-white-alpha-60);
+  --color-surface-apha-white-apha-70: var(--color-white-alpha-70);
+  --color-surface-apha-white-apha-80: var(--color-white-alpha-80);
+  --color-surface-apha-white-apha-90: var(--color-white-alpha-90);
+  --color-surface-apha-white-apha-pure: var(--color-pure-color-white);
+  --color-surface-apha-white-apha-inverse-5: var(--color-white-alpha-5);
+  --color-surface-apha-white-apha-inverse-10: var(--color-white-alpha-10);
+  --color-surface-apha-white-apha-inverse-20: var(--color-white-alpha-20);
+  --color-surface-apha-white-apha-inverse-30: var(--color-white-alpha-30);
+  --color-surface-apha-white-apha-inverse-40: var(--color-white-alpha-40);
+  --color-surface-apha-white-apha-inverse-50: var(--color-white-alpha-50);
+  --color-surface-apha-white-apha-inverse-60: var(--color-white-alpha-60);
+  --color-surface-apha-white-apha-inverse-70: var(--color-white-alpha-70);
+  --color-surface-apha-white-apha-inverse-80: var(--color-white-alpha-80);
+  --color-surface-apha-white-apha-inverse-90: var(--color-white-alpha-90);
+  --color-surface-apha-white-black-inverse-5: var(--color-pure-color-white);
+  --color-surface-apha-white-black-inverse-10: var(--color-pure-color-white);
+  --color-surface-apha-white-black-inverse-20: var(--color-pure-color-white);
+  --color-surface-apha-white-black-inverse-30: var(--color-pure-color-white);
+  --color-surface-apha-white-black-inverse-40: var(--color-pure-color-white);
+  --color-surface-apha-white-black-inverse-50: var(--color-pure-color-white);
+  --color-surface-apha-white-black-inverse-60: var(--color-pure-color-white);
+  --color-surface-apha-white-black-inverse-70: var(--color-pure-color-white);
+  --color-surface-apha-white-black-inverse-80: var(--color-pure-color-white);
+  --color-surface-apha-white-black-inverse-90: var(--color-white-alpha-90);
 }

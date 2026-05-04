@@ -5,6 +5,733 @@
 [data-theme='light-mode'] {
 
   /* Color */
+  /* Generated from Material Color System */
+  --color-primary-50: #e7f9fc;
+  /* Generated from Material Color System */
+  --color-primary-100: #b5ebf5;
+  /* Generated from Material Color System */
+  --color-primary-200: #91e2f0;
+  /* Generated from Material Color System */
+  --color-primary-300: #5fd5ea;
+  /* Generated from Material Color System */
+  --color-primary-400: #40cde5;
+  /* Generated from Material Color System */
+  --color-primary-500: #10c0df;
+  /* Generated from Material Color System */
+  --color-primary-600: #0fafcb;
+  /* Generated from Material Color System */
+  --color-primary-700: #0b889e;
+  /* Generated from Material Color System */
+  --color-primary-800: #096a7b;
+  /* Generated from Material Color System */
+  --color-primary-900: #07515e;
+  --color-primary-950: #06414b;
+  /* Generated from Material Color System */
+  --color-primary-a100: #b3f2ff;
+  /* Generated from Material Color System */
+  --color-primary-a200: #4de0ff;
+  /* Generated from Material Color System */
+  --color-primary-a400: #10c0df;
+  /* Generated from Material Color System */
+  --color-primary-a700: #0a8fa6;
+  /* Generated from Material Color System */
+  --color-pure-color-black: #000000;
+  /* Generated from Material Color System */
+  --color-pure-color-white: #ffffff;
+  /* Generated from Material Color System */
+  --color-red-50: #ffebee;
+  /* Generated from Material Color System */
+  --color-red-100: #ffcdd2;
+  /* Generated from Material Color System */
+  --color-red-200: #ef9a9a;
+  /* Generated from Material Color System */
+  --color-red-300: #e57373;
+  /* Generated from Material Color System */
+  --color-red-400: #ef5350;
+  /* Generated from Material Color System */
+  --color-red-500: #f44336;
+  /* Generated from Material Color System */
+  --color-red-600: #e53935;
+  /* Generated from Material Color System */
+  --color-red-700: #d32f2f;
+  /* Generated from Material Color System */
+  --color-red-800: #c62828;
+  /* Generated from Material Color System */
+  --color-red-900: #b71c1c;
+  --color-red-950: #921616;
+  /* Generated from Material Color System */
+  --color-red-a100: #ff8a80;
+  /* Generated from Material Color System */
+  --color-red-a200: #ff5252;
+  /* Generated from Material Color System */
+  --color-red-a400: #ff1744;
+  /* Generated from Material Color System */
+  --color-red-a700: #d50000;
+  /* Generated from Material Color System */
+  --color-pink-50: #fce4ec;
+  /* Generated from Material Color System */
+  --color-pink-100: #f8bbd0;
+  /* Generated from Material Color System */
+  --color-pink-200: #f48fb1;
+  /* Generated from Material Color System */
+  --color-pink-300: #f06292;
+  /* Generated from Material Color System */
+  --color-pink-400: #ec407a;
+  /* Generated from Material Color System */
+  --color-pink-500: #e91e63;
+  /* Generated from Material Color System */
+  --color-pink-600: #d81b60;
+  /* Generated from Material Color System */
+  --color-pink-700: #c2185b;
+  /* Generated from Material Color System */
+  --color-pink-800: #ad1457;
+  /* Generated from Material Color System */
+  --color-pink-900: #880e4f;
+  --color-pink-950: #6d0b3f;
+  /* Generated from Material Color System */
+  --color-pink-a100: #ff80ab;
+  /* Generated from Material Color System */
+  --color-pink-a200: #ff4081;
+  /* Generated from Material Color System */
+  --color-pink-a400: #f50057;
+  /* Generated from Material Color System */
+  --color-pink-a700: #c51162;
+  /* Generated from Material Color System */
+  --color-purple-50: #f3e5f5;
+  /* Generated from Material Color System */
+  --color-purple-100: #e1bee7;
+  /* Generated from Material Color System */
+  --color-purple-200: #ce93d8;
+  /* Generated from Material Color System */
+  --color-purple-300: #ba68c8;
+  /* Generated from Material Color System */
+  --color-purple-400: #ab47bc;
+  /* Generated from Material Color System */
+  --color-purple-500: #9c27b0;
+  /* Generated from Material Color System */
+  --color-purple-600: #8e24aa;
+  /* Generated from Material Color System */
+  --color-purple-700: #7b1fa2;
+  /* Generated from Material Color System */
+  --color-purple-800: #6a1b9a;
+  /* Generated from Material Color System */
+  --color-purple-900: #4a148c;
+  --color-purple-950: #3b1070;
+  /* Generated from Material Color System */
+  --color-purple-a100: #ea80fc;
+  /* Generated from Material Color System */
+  --color-purple-a200: #e040fb;
+  /* Generated from Material Color System */
+  --color-purple-a400: #d500f9;
+  /* Generated from Material Color System */
+  --color-purple-a700: #aa00ff;
+  /* Generated from Material Color System */
+  --color-deep-purple-50: #ede7f6;
+  /* Generated from Material Color System */
+  --color-deep-purple-100: #d1c4e9;
+  /* Generated from Material Color System */
+  --color-deep-purple-200: #b39ddb;
+  /* Generated from Material Color System */
+  --color-deep-purple-300: #9575cd;
+  /* Generated from Material Color System */
+  --color-deep-purple-400: #7e57c2;
+  /* Generated from Material Color System */
+  --color-deep-purple-500: #673ab7;
+  /* Generated from Material Color System */
+  --color-deep-purple-600: #5e35b1;
+  /* Generated from Material Color System */
+  --color-deep-purple-700: #512da8;
+  /* Generated from Material Color System */
+  --color-deep-purple-800: #4527a0;
+  /* Generated from Material Color System */
+  --color-deep-purple-900: #311b92;
+  --color-deep-purple-950: #271675;
+  /* Generated from Material Color System */
+  --color-deep-purple-a100: #b388ff;
+  /* Generated from Material Color System */
+  --color-deep-purple-a200: #7c4dff;
+  /* Generated from Material Color System */
+  --color-deep-purple-a400: #651fff;
+  /* Generated from Material Color System */
+  --color-deep-purple-a700: #6200ea;
+  /* Generated from Material Color System */
+  --color-blue-50: #e3f2fd;
+  /* Generated from Material Color System */
+  --color-blue-100: #bbdefb;
+  /* Generated from Material Color System */
+  --color-blue-200: #90caf9;
+  /* Generated from Material Color System */
+  --color-blue-300: #64b5f6;
+  /* Generated from Material Color System */
+  --color-blue-400: #42a5f5;
+  /* Generated from Material Color System */
+  --color-blue-500: #2196f3;
+  /* Generated from Material Color System */
+  --color-blue-600: #1e88e5;
+  /* Generated from Material Color System */
+  --color-blue-700: #1976d2;
+  /* Generated from Material Color System */
+  --color-blue-800: #1565c0;
+  /* Generated from Material Color System */
+  --color-blue-900: #0d47a1;
+  /* Generated from Material Color System */
+  --color-blue-950: #0a3981;
+  /* Generated from Material Color System */
+  --color-blue-a100: #82b1ff;
+  /* Generated from Material Color System */
+  --color-blue-a200: #448aff;
+  /* Generated from Material Color System */
+  --color-blue-a400: #2979ff;
+  /* Generated from Material Color System */
+  --color-blue-a700: #2962ff;
+  /* Generated from Material Color System */
+  --color-light-blue-50: #e1f5fe;
+  /* Generated from Material Color System */
+  --color-light-blue-100: #b3e5fc;
+  /* Generated from Material Color System */
+  --color-light-blue-200: #81d4fa;
+  /* Generated from Material Color System */
+  --color-light-blue-300: #4fc3f7;
+  /* Generated from Material Color System */
+  --color-light-blue-400: #29b6f6;
+  /* Generated from Material Color System */
+  --color-light-blue-500: #03a9f4;
+  /* Generated from Material Color System */
+  --color-light-blue-600: #039be5;
+  /* Generated from Material Color System */
+  --color-light-blue-700: #0288d1;
+  /* Generated from Material Color System */
+  --color-light-blue-800: #0277bd;
+  /* Generated from Material Color System */
+  --color-light-blue-900: #01579b;
+  /* Generated from Material Color System */
+  --color-light-blue-950: #01467c;
+  /* Generated from Material Color System */
+  --color-light-blue-a100: #80d8ff;
+  /* Generated from Material Color System */
+  --color-light-blue-a200: #40c4ff;
+  /* Generated from Material Color System */
+  --color-light-blue-a400: #00b0ff;
+  /* Generated from Material Color System */
+  --color-light-blue-a700: #0091ea;
+  /* Generated from Material Color System */
+  --color-cyan-50: #e0f7fa;
+  /* Generated from Material Color System */
+  --color-cyan-100: #b2ebf2;
+  /* Generated from Material Color System */
+  --color-cyan-200: #80deea;
+  /* Generated from Material Color System */
+  --color-cyan-300: #4dd0e1;
+  /* Generated from Material Color System */
+  --color-cyan-400: #26c6da;
+  /* Generated from Material Color System */
+  --color-cyan-500: #00bcd4;
+  /* Generated from Material Color System */
+  --color-cyan-600: #00acc1;
+  /* Generated from Material Color System */
+  --color-cyan-700: #0097a7;
+  /* Generated from Material Color System */
+  --color-cyan-800: #00838f;
+  /* Generated from Material Color System */
+  --color-cyan-900: #004d50;
+  --color-cyan-950: #ffffff;
+  /* Generated from Material Color System */
+  --color-cyan-a100: #84ffff;
+  /* Generated from Material Color System */
+  --color-cyan-a200: #18ffff;
+  /* Generated from Material Color System */
+  --color-cyan-a400: #00e5ff;
+  /* Generated from Material Color System */
+  --color-cyan-a700: #00b8d4;
+  /* Generated from Material Color System */
+  --color-teal-50: #e0f2f1;
+  /* Generated from Material Color System */
+  --color-teal-100: #b2dfdb;
+  /* Generated from Material Color System */
+  --color-teal-200: #80cbc4;
+  /* Generated from Material Color System */
+  --color-teal-300: #4db6ac;
+  /* Generated from Material Color System */
+  --color-teal-400: #26a69a;
+  /* Generated from Material Color System */
+  --color-teal-500: #009688;
+  /* Generated from Material Color System */
+  --color-teal-600: #00897b;
+  /* Generated from Material Color System */
+  --color-teal-700: #00796b;
+  /* Generated from Material Color System */
+  --color-teal-800: #00695c;
+  /* Generated from Material Color System */
+  --color-teal-900: #004d40;
+  --color-teal-950: #003e33;
+  /* Generated from Material Color System */
+  --color-teal-a100: #a7ffeb;
+  /* Generated from Material Color System */
+  --color-teal-a200: #64ffda;
+  /* Generated from Material Color System */
+  --color-teal-a400: #1de9b6;
+  /* Generated from Material Color System */
+  --color-teal-a700: #00bfa5;
+  /* Generated from Material Color System */
+  --color-green-50: #e8f5e9;
+  /* Generated from Material Color System */
+  --color-green-100: #c8e6c9;
+  /* Generated from Material Color System */
+  --color-green-200: #a5d6a7;
+  /* Generated from Material Color System */
+  --color-green-300: #81c784;
+  /* Generated from Material Color System */
+  --color-green-400: #66bb6a;
+  /* Generated from Material Color System */
+  --color-green-500: #4caf50;
+  /* Generated from Material Color System */
+  --color-green-600: #43a047;
+  /* Generated from Material Color System */
+  --color-green-700: #388e3c;
+  /* Generated from Material Color System */
+  --color-green-800: #2e7d32;
+  /* Generated from Material Color System */
+  --color-green-900: #1b5e20;
+  --color-green-950: #164b1a;
+  /* Generated from Material Color System */
+  --color-green-a100: #b9f6ca;
+  /* Generated from Material Color System */
+  --color-green-a200: #69f0ae;
+  /* Generated from Material Color System */
+  --color-green-a400: #00e676;
+  /* Generated from Material Color System */
+  --color-green-a700: #00c853;
+  /* Generated from Material Color System */
+  --color-light-green-50: #f1f8e9;
+  /* Generated from Material Color System */
+  --color-light-green-100: #dcedc8;
+  /* Generated from Material Color System */
+  --color-light-green-200: #c5e1a5;
+  /* Generated from Material Color System */
+  --color-light-green-300: #aed581;
+  /* Generated from Material Color System */
+  --color-light-green-400: #9ccc65;
+  /* Generated from Material Color System */
+  --color-light-green-500: #8bc34a;
+  /* Generated from Material Color System */
+  --color-light-green-600: #7cb342;
+  /* Generated from Material Color System */
+  --color-light-green-700: #689f38;
+  /* Generated from Material Color System */
+  --color-light-green-800: #558b2f;
+  /* Generated from Material Color System */
+  --color-light-green-900: #33691e;
+  --color-light-green-950: #295418;
+  /* Generated from Material Color System */
+  --color-light-green-a100: #ccff90;
+  /* Generated from Material Color System */
+  --color-light-green-a200: #b2ff59;
+  /* Generated from Material Color System */
+  --color-light-green-a400: #76ff03;
+  /* Generated from Material Color System */
+  --color-light-green-a700: #64dd17;
+  /* Generated from Material Color System */
+  --color-lime-50: #f9fbe7;
+  /* Generated from Material Color System */
+  --color-lime-100: #f0f4c3;
+  /* Generated from Material Color System */
+  --color-lime-200: #e6ee9c;
+  /* Generated from Material Color System */
+  --color-lime-300: #dce775;
+  /* Generated from Material Color System */
+  --color-lime-400: #d4e157;
+  /* Generated from Material Color System */
+  --color-lime-500: #cddc39;
+  /* Generated from Material Color System */
+  --color-lime-600: #c0ca33;
+  /* Generated from Material Color System */
+  --color-lime-700: #afb42b;
+  /* Generated from Material Color System */
+  --color-lime-800: #9e9d24;
+  /* Generated from Material Color System */
+  --color-lime-900: #827717;
+  --color-lime-950: #685f12;
+  /* Generated from Material Color System */
+  --color-lime-a100: #f4ff81;
+  /* Generated from Material Color System */
+  --color-lime-a200: #eeff41;
+  /* Generated from Material Color System */
+  --color-lime-a400: #c6ff00;
+  /* Generated from Material Color System */
+  --color-lime-a700: #aeea00;
+  /* Generated from Material Color System */
+  --color-yellow-50: #fffde7;
+  /* Generated from Material Color System */
+  --color-yellow-100: #fff9c4;
+  /* Generated from Material Color System */
+  --color-yellow-200: #fff59d;
+  /* Generated from Material Color System */
+  --color-yellow-300: #fff176;
+  /* Generated from Material Color System */
+  --color-yellow-400: #ffee58;
+  /* Generated from Material Color System */
+  --color-yellow-500: #ffeb3b;
+  /* Generated from Material Color System */
+  --color-yellow-600: #fdd835;
+  /* Generated from Material Color System */
+  --color-yellow-700: #fbc02d;
+  /* Generated from Material Color System */
+  --color-yellow-800: #f9a825;
+  /* Generated from Material Color System */
+  --color-yellow-900: #f57f17;
+  --color-yellow-950: #c46612;
+  /* Generated from Material Color System */
+  --color-yellow-a100: #ffff8d;
+  /* Generated from Material Color System */
+  --color-yellow-a200: #ffff00;
+  /* Generated from Material Color System */
+  --color-yellow-a400: #ffea00;
+  /* Generated from Material Color System */
+  --color-yellow-a700: #ffd600;
+  /* Generated from Material Color System */
+  --color-amber-50: #fff8e1;
+  /* Generated from Material Color System */
+  --color-amber-100: #ffecb3;
+  /* Generated from Material Color System */
+  --color-amber-200: #ffe082;
+  /* Generated from Material Color System */
+  --color-amber-300: #ffd54f;
+  /* Generated from Material Color System */
+  --color-amber-400: #ffca28;
+  /* Generated from Material Color System */
+  --color-amber-500: #ffc107;
+  /* Generated from Material Color System */
+  --color-amber-600: #ffb300;
+  /* Generated from Material Color System */
+  --color-amber-700: #ffa000;
+  /* Generated from Material Color System */
+  --color-amber-800: #ff8f00;
+  /* Generated from Material Color System */
+  --color-amber-900: #ff6f00;
+  --color-amber-950: #c46612;
+  /* Generated from Material Color System */
+  --color-amber-a100: #ffe57f;
+  /* Generated from Material Color System */
+  --color-amber-a200: #ffd740;
+  /* Generated from Material Color System */
+  --color-amber-a400: #ffc400;
+  /* Generated from Material Color System */
+  --color-amber-a700: #ffab00;
+  /* Generated from Material Color System */
+  --color-orange-50: #fff3e0;
+  /* Generated from Material Color System */
+  --color-orange-100: #ffe0b2;
+  /* Generated from Material Color System */
+  --color-orange-200: #ffcc80;
+  /* Generated from Material Color System */
+  --color-orange-300: #ffb74d;
+  /* Generated from Material Color System */
+  --color-orange-400: #ffa726;
+  /* Generated from Material Color System */
+  --color-orange-500: #ff9800;
+  /* Generated from Material Color System */
+  --color-orange-600: #fb8c00;
+  /* Generated from Material Color System */
+  --color-orange-700: #f57c00;
+  /* Generated from Material Color System */
+  --color-orange-800: #ef6c00;
+  /* Generated from Material Color System */
+  --color-orange-900: #e65100;
+  --color-orange-950: #b84100;
+  /* Generated from Material Color System */
+  --color-orange-a100: #ffd180;
+  /* Generated from Material Color System */
+  --color-orange-a200: #ffab40;
+  /* Generated from Material Color System */
+  --color-orange-a400: #ff9100;
+  /* Generated from Material Color System */
+  --color-orange-a700: #ff6d00;
+  /* Generated from Material Color System */
+  --color-deep-orange-50: #fbe9e7;
+  /* Generated from Material Color System */
+  --color-deep-orange-100: #ffccbc;
+  /* Generated from Material Color System */
+  --color-deep-orange-200: #ffab91;
+  /* Generated from Material Color System */
+  --color-deep-orange-300: #ff8a65;
+  /* Generated from Material Color System */
+  --color-deep-orange-400: #ff7043;
+  /* Generated from Material Color System */
+  --color-deep-orange-500: #ff5722;
+  /* Generated from Material Color System */
+  --color-deep-orange-600: #f4511e;
+  /* Generated from Material Color System */
+  --color-deep-orange-700: #e64a19;
+  /* Generated from Material Color System */
+  --color-deep-orange-800: #d84315;
+  /* Generated from Material Color System */
+  --color-deep-orange-900: #bf360c;
+  --color-deep-orange-950: #992b0a;
+  /* Generated from Material Color System */
+  --color-deep-orange-a100: #ff9e80;
+  /* Generated from Material Color System */
+  --color-deep-orange-a200: #ff6e40;
+  /* Generated from Material Color System */
+  --color-deep-orange-a400: #ff3d00;
+  /* Generated from Material Color System */
+  --color-deep-orange-a700: #dd2c00;
+  /* Generated from Material Color System */
+  --color-brown-50: #efebe9;
+  /* Generated from Material Color System */
+  --color-brown-100: #d7ccc8;
+  /* Generated from Material Color System */
+  --color-brown-200: #bcaaa4;
+  /* Generated from Material Color System */
+  --color-brown-300: #a1887f;
+  /* Generated from Material Color System */
+  --color-brown-400: #8d6e63;
+  /* Generated from Material Color System */
+  --color-brown-500: #795548;
+  /* Generated from Material Color System */
+  --color-brown-600: #6d4c41;
+  /* Generated from Material Color System */
+  --color-brown-700: #5d4037;
+  /* Generated from Material Color System */
+  --color-brown-800: #4e342e;
+  /* Generated from Material Color System */
+  --color-brown-900: #3e2723;
+  --color-brown-950: #321f1c;
+  /* Generated from Material Color System */
+  --color-netural-50: #fafafa;
+  /* Generated from Material Color System */
+  --color-netural-100: #f5f5f5;
+  /* Generated from Material Color System */
+  --color-netural-200: #eeeeee;
+  /* Generated from Material Color System */
+  --color-netural-300: #e0e0e0;
+  /* Generated from Material Color System */
+  --color-netural-400: #bdbdbd;
+  /* Generated from Material Color System */
+  --color-netural-500: #9e9e9e;
+  /* Generated from Material Color System */
+  --color-netural-600: #757575;
+  /* Generated from Material Color System */
+  --color-netural-700: #616161;
+  /* Generated from Material Color System */
+  --color-netural-800: #424242;
+  /* Generated from Material Color System */
+  --color-netural-900: #212121;
+  --color-netural-950: #1a1a1a;
+  /* Generated from Material Color System */
+  --color-grey-50: #eceff1;
+  /* Generated from Material Color System */
+  --color-grey-100: #cfd8dc;
+  /* Generated from Material Color System */
+  --color-grey-200: #b0bec5;
+  /* Generated from Material Color System */
+  --color-grey-300: #90a4ae;
+  /* Generated from Material Color System */
+  --color-grey-400: #78909c;
+  /* Generated from Material Color System */
+  --color-grey-500: #607d8b;
+  /* Generated from Material Color System */
+  --color-grey-600: #546e7a;
+  /* Generated from Material Color System */
+  --color-grey-700: #455a64;
+  /* Generated from Material Color System */
+  --color-grey-800: #37474f;
+  /* Generated from Material Color System */
+  --color-grey-900: #263238;
+  --color-grey-950: #1e282d;
+  /* Generated from Material Color System */
+  --color-black-alpha-5: #0000000d;
+  /* Generated from Material Color System */
+  --color-black-alpha-10: #0000001a;
+  /* Generated from Material Color System */
+  --color-black-alpha-20: #00000033;
+  /* Generated from Material Color System */
+  --color-black-alpha-30: #0000004d;
+  /* Generated from Material Color System */
+  --color-black-alpha-40: #00000066;
+  /* Generated from Material Color System */
+  --color-black-alpha-50: #00000080;
+  /* Generated from Material Color System */
+  --color-black-alpha-60: #00000099;
+  /* Generated from Material Color System */
+  --color-black-alpha-70: #000000b2;
+  /* Generated from Material Color System */
+  --color-black-alpha-80: #000000cc;
+  /* Generated from Material Color System */
+  --color-black-alpha-90: #000000e5;
+  /* Generated from Material Color System */
+  --color-white-alpha-5: #ffffff0d;
+  /* Generated from Material Color System */
+  --color-white-alpha-10: #ffffff1a;
+  /* Generated from Material Color System */
+  --color-white-alpha-20: #ffffff33;
+  /* Generated from Material Color System */
+  --color-white-alpha-30: #ffffff4d;
+  /* Generated from Material Color System */
+  --color-white-alpha-40: #ffffff66;
+  /* Generated from Material Color System */
+  --color-white-alpha-50: #ffffff80;
+  /* Generated from Material Color System */
+  --color-white-alpha-60: #ffffff99;
+  /* Generated from Material Color System */
+  --color-white-alpha-70: #ffffffb2;
+  /* Generated from Material Color System */
+  --color-white-alpha-80: #ffffffcc;
+  /* Generated from Material Color System */
+  --color-white-alpha-90: #ffffffe5;
+  /* Generated from Material Color System */
+  --color-primary-alpha-50: #10c0df0a;
+  /* Generated from Material Color System */
+  --color-primary-alpha-100: #10c0df14;
+  /* Generated from Material Color System */
+  --color-primary-alpha-200: #10c0df1f;
+  /* Generated from Material Color System */
+  --color-primary-alpha-300: #10c0df29;
+  /* Generated from Material Color System */
+  --color-primary-alpha-400: #10c0df3d;
+  /* Generated from Material Color System */
+  --color-primary-alpha-500: #10c0df52;
+  /* Generated from Material Color System */
+  --color-primary-alpha-600: #10c0df61;
+  /* Generated from Material Color System */
+  --color-primary-alpha-700: #10c0df8a;
+  /* Generated from Material Color System */
+  --color-primary-alpha-800: #10c0df99;
+  /* Generated from Material Color System */
+  --color-primary-alpha-900: #10c0dfde;
+  /* Generated from Material Color System */
+  --color-primary-alpha-a100: #10c0df33;
+  /* Generated from Material Color System */
+  --color-primary-alpha-a200: #10c0df73;
+  /* Generated from Material Color System */
+  --color-primary-alpha-a400: #10c0dfb2;
+  /* Generated from Material Color System */
+  --color-primary-alpha-a700: #10c0dff2;
+  /* Generated from Material Color System */
+  --color-green-alpha-50: #4caf500a;
+  /* Generated from Material Color System */
+  --color-green-alpha-100: #4caf5014;
+  /* Generated from Material Color System */
+  --color-green-alpha-200: #4caf501f;
+  /* Generated from Material Color System */
+  --color-green-alpha-300: #4caf5029;
+  /* Generated from Material Color System */
+  --color-green-alpha-400: #4caf503d;
+  /* Generated from Material Color System */
+  --color-green-alpha-500: #4caf5052;
+  /* Generated from Material Color System */
+  --color-green-alpha-600: #4caf5061;
+  /* Generated from Material Color System */
+  --color-green-alpha-700: #4caf508a;
+  /* Generated from Material Color System */
+  --color-green-alpha-800: #4caf5099;
+  /* Generated from Material Color System */
+  --color-green-alpha-900: #4caf50de;
+  /* Generated from Material Color System */
+  --color-green-alpha-a100: #4caf5033;
+  /* Generated from Material Color System */
+  --color-green-alpha-a200: #4caf5073;
+  /* Generated from Material Color System */
+  --color-green-alpha-a400: #4caf50b2;
+  /* Generated from Material Color System */
+  --color-green-alpha-a700: #4caf50f2;
+  /* Generated from Material Color System */
+  --color-red-alpha-50: #f443360a;
+  /* Generated from Material Color System */
+  --color-red-alpha-100: #f4433614;
+  /* Generated from Material Color System */
+  --color-red-alpha-200: #f443361f;
+  /* Generated from Material Color System */
+  --color-red-alpha-300: #f4433629;
+  /* Generated from Material Color System */
+  --color-red-alpha-400: #f443363d;
+  /* Generated from Material Color System */
+  --color-red-alpha-500: #f4433652;
+  /* Generated from Material Color System */
+  --color-red-alpha-600: #f44a3661;
+  /* Generated from Material Color System */
+  --color-red-alpha-700: #f443368a;
+  /* Generated from Material Color System */
+  --color-red-alpha-800: #f4433699;
+  /* Generated from Material Color System */
+  --color-red-alpha-900: #f44336de;
+  /* Generated from Material Color System */
+  --color-red-alpha-a100: #f4433633;
+  /* Generated from Material Color System */
+  --color-red-alpha-a200: #f4433673;
+  /* Generated from Material Color System */
+  --color-red-alpha-a400: #f44336b2;
+  /* Generated from Material Color System */
+  --color-red-alpha-a700: #f44336f2;
+  /* Generated from Material Color System */
+  --color-yellow-alpha-50: #ffeb3b0a;
+  /* Generated from Material Color System */
+  --color-yellow-alpha-100: #ffeb3b14;
+  /* Generated from Material Color System */
+  --color-yellow-alpha-200: #ffeb3b1f;
+  /* Generated from Material Color System */
+  --color-yellow-alpha-300: #ffeb3b29;
+  /* Generated from Material Color System */
+  --color-yellow-alpha-400: #ffeb3b3d;
+  /* Generated from Material Color System */
+  --color-yellow-alpha-500: #ffeb3b52;
+  /* Generated from Material Color System */
+  --color-yellow-alpha-600: #ffeb3b61;
+  /* Generated from Material Color System */
+  --color-yellow-alpha-700: #ffeb3b8a;
+  /* Generated from Material Color System */
+  --color-yellow-alpha-800: #ffeb3b99;
+  /* Generated from Material Color System */
+  --color-yellow-alpha-900: #ffeb3bde;
+  /* Generated from Material Color System */
+  --color-yellow-alpha-a100: #ffeb3b33;
+  /* Generated from Material Color System */
+  --color-yellow-alpha-a200: #ffeb3b73;
+  /* Generated from Material Color System */
+  --color-yellow-alpha-a400: #ffeb3bb2;
+  /* Generated from Material Color System */
+  --color-yellow-alpha-a700: #ffeb3bf2;
+  /* High-contrast overlays or "Glass" card effects. */
+  --color-alpha-surface-alpha-surface-alpha-high: #00000033;
+  /* Generated from Material Color System */
+  --color-black-alpha-inverse-5: #0000000d;
+  /* Generated from Material Color System */
+  --color-black-alpha-inverse-10: #0000001a;
+  /* Generated from Material Color System */
+  --color-black-alpha-inverse-20: #00000033;
+  /* Generated from Material Color System */
+  --color-black-alpha-inverse-30: #0000004d;
+  /* Generated from Material Color System */
+  --color-black-alpha-inverse-40: #00000066;
+  /* Generated from Material Color System */
+  --color-black-alpha-inverse-50: #00000080;
+  /* Generated from Material Color System */
+  --color-black-alpha-inverse-60: #00000099;
+  /* Generated from Material Color System */
+  --color-black-alpha-inverse-70: #000000b2;
+  /* Generated from Material Color System */
+  --color-black-alpha-inverse-80: #000000cc;
+  /* Generated from Material Color System */
+  --color-black-alpha-inverse-900: #000000e5;
+  /* Generated from Material Color System */
+  --color-white-alpha-inverse-5: #ffffff0d;
+  /* Generated from Material Color System */
+  --color-white-alpha-inverse-10: #ffffff1a;
+  /* Generated from Material Color System */
+  --color-white-alpha-inverse-20: #ffffff33;
+  /* Generated from Material Color System */
+  --color-white-alpha-inverse-30: #ffffff4d;
+  /* Generated from Material Color System */
+  --color-white-alpha-inverse-40: #ffffff66;
+  /* Generated from Material Color System */
+  --color-white-alpha-inverse-50: #ffffff80;
+  /* Generated from Material Color System */
+  --color-white-alpha-inverse-60: #ffffff99;
+  /* Generated from Material Color System */
+  --color-white-alpha-inverse-70: #ffffffb2;
+  /* Generated from Material Color System */
+  --color-white-alpha-inverse-80: #ffffffcc;
+  /* Generated from Material Color System */
+  --color-white-alpha-inverse-900: #ffffffe5;
   --border-color-inverse-surface: var(--color-netural-900);
   /* Standard borders for cards, sections, and dividers. */
   --border-color-core-layout-default: var(--color-netural-200);
@@ -89,27 +816,25 @@
   --color-icon-interactive-state-icon-interactive-active: var(--color-netural-100);
   --color-icon-interactive-state-icon-selected: var(--color-primary-600);
   /* Extremely subtle tint for large sections or hover states on white. */
-  --color-alpha-surface-alpha-surface-alpha-lowest: var(--color-black-alpha-50);
+  --color-alpha-surface-alpha-surface-alpha-lowest: var(--color-black-alpha-5);
   /* Subtle container backgrounds or "Sunken" effects. */
-  --color-alpha-surface-alpha-surface-alpha-low: var(--color-black-alpha-100);
+  --color-alpha-surface-alpha-surface-alpha-low: var(--color-black-alpha-10);
   /* Standard component backgrounds (e.g., search bars, tags). */
-  --color-alpha-surface-alpha-surface-alpha-medium: var(--color-black-alpha-200);
-  /* High-contrast overlays or "Glass" card effects. */
-  --color-alpha-surface-alpha-surface-alpha-high: var(--color-black-alpha-a100);
+  --color-alpha-surface-alpha-surface-alpha-medium: var(--color-black-alpha-20);
   /* Universal hover overlay for buttons and list items. */
-  --color-alpha-interactive-alpha-state-alpha-hover: var(--color-black-alpha-50);
+  --color-alpha-interactive-alpha-state-alpha-hover: var(--color-black-alpha-5);
   /* Universal pressed/active state overlay. */
-  --color-alpha-interactive-alpha-state-alpha-active: var(--color-black-alpha-100);
+  --color-alpha-interactive-alpha-state-alpha-active: var(--color-black-alpha-10);
   /* Transparent brand tint for selected navigation or checkboxes. */
   --color-alpha-interactive-alpha-state-alpha-selected: var(--color-primary-alpha-200);
   /* Borders for inactive inputs or buttons. */
   --border-color-alpha-interactive-alpha-disabled: var(--color-netural-100);
   /* Hairline dividers that disappear on dark backgrounds. */
-  --border-color-alpha-subtle: var(--color-black-alpha-100);
+  --border-color-alpha-subtle: var(--color-black-alpha-10);
   /* Standard borders for inputs and cards. */
-  --border-color-alpha-default: var(--color-black-alpha-300);
+  --border-color-alpha-default: var(--color-black-alpha-30);
   /* Accessible borders for high-contrast UI elements. */
-  --border-color-alpha-strong: var(--color-black-alpha-500);
+  --border-color-alpha-strong: var(--color-black-alpha-50);
   /* Backgrounds for success alerts (allows the green to "glow"). */
   --color-alpha-feedback-alpha-surface-alpha-success: var(--color-green-alpha-200);
   /* Backgrounds for error banners. */
@@ -235,23 +960,85 @@
   /* system/dialog-background semantic color */
   --bg-color-system-dialog-background: var(--color-pure-color-white);
   /* system/scrim semantic color */
-  --color-system-scrim: var(--color-black-alpha-500);
+  --color-system-scrim: var(--color-black-alpha-50);
   /* system/overlay-light semantic color */
-  --color-system-overlay-light: var(--color-white-alpha-500);
+  --color-system-overlay-light: var(--color-white-alpha-50);
   /* state/hover semantic color */
-  --color-state-hover: var(--color-black-alpha-50);
+  --color-state-hover: var(--color-black-alpha-5);
   /* state/focus semantic color */
-  --color-state-focus: var(--color-black-alpha-200);
+  --color-state-focus: var(--color-black-alpha-20);
   /* state/pressed semantic color */
-  --color-state-pressed: var(--color-black-alpha-200);
+  --color-state-pressed: var(--color-black-alpha-20);
   /* state/dragged semantic color */
-  --color-state-dragged: var(--color-black-alpha-100);
+  --color-state-dragged: var(--color-black-alpha-10);
   /* state/disabled-container semantic color */
-  --color-state-disabled-container: var(--color-black-alpha-200);
+  --color-state-disabled-container: var(--color-black-alpha-20);
   /* state/disabled-content semantic color */
-  --color-state-disabled-content: var(--color-black-alpha-600);
+  --color-state-disabled-content: var(--color-black-alpha-60);
   /* High contrast floating elements. */
   --color-surface-inverse-surface-inverse: var(--color-netural-900);
   /* Softer high-contrast elements. */
   --color-surface-inverse-surface-inverse-subtle: var(--color-netural-800);
+  --color-surface-apha-back-apha-5: var(--color-black-alpha-5);
+  --color-surface-apha-back-apha-inverse-5: var(--color-black-alpha-5);
+  --color-surface-apha-back-white-inverse-5: var(--color-pure-color-black);
+  --color-surface-apha-back-white-inverse-10: var(--color-pure-color-black);
+  --color-surface-apha-back-white-inverse-20: var(--color-pure-color-black);
+  --color-surface-apha-back-white-inverse-30: var(--color-pure-color-black);
+  --color-surface-apha-back-white-inverse-40: var(--color-pure-color-black);
+  --color-surface-apha-back-white-inverse-50: var(--color-pure-color-black);
+  --color-surface-apha-back-white-inverse-60: var(--color-pure-color-black);
+  --color-surface-apha-back-white-inverse-70: var(--color-pure-color-black);
+  --color-surface-apha-back-white-inverse-80: var(--color-pure-color-black);
+  --color-surface-apha-back-white-inverse-90: var(--color-black-alpha-90);
+  --color-surface-apha-back-apha-inverse-10: var(--color-black-alpha-10);
+  --color-surface-apha-back-apha-inverse-20: var(--color-black-alpha-20);
+  --color-surface-apha-back-apha-inverse-30: var(--color-black-alpha-30);
+  --color-surface-apha-back-apha-inverse-40: var(--color-black-alpha-40);
+  --color-surface-apha-back-apha-inverse-50: var(--color-black-alpha-50);
+  --color-surface-apha-back-apha-inverse-60: var(--color-black-alpha-60);
+  --color-surface-apha-back-apha-inverse-70: var(--color-black-alpha-70);
+  --color-surface-apha-back-apha-inverse-80: var(--color-black-alpha-80);
+  --color-surface-apha-back-apha-inverse-90: var(--color-black-alpha-90);
+  --color-surface-apha-back-apha-10: var(--color-black-alpha-10);
+  --color-surface-apha-back-apha-20: var(--color-black-alpha-20);
+  --color-surface-apha-back-apha-30: var(--color-black-alpha-30);
+  --color-surface-apha-back-apha-40: var(--color-black-alpha-40);
+  --color-surface-apha-back-apha-50: var(--color-black-alpha-50);
+  --color-surface-apha-back-apha-60: var(--color-black-alpha-60);
+  --color-surface-apha-back-apha-70: var(--color-black-alpha-70);
+  --color-surface-apha-back-apha-80: var(--color-black-alpha-80);
+  --color-surface-apha-back-apha-90: var(--color-black-alpha-90);
+  --color-surface-apha-back-apha-pure: var(--color-pure-color-black);
+  --color-surface-apha-white-apha-5: var(--color-white-alpha-5);
+  --color-surface-apha-white-apha-10: var(--color-white-alpha-10);
+  --color-surface-apha-white-apha-20: var(--color-white-alpha-20);
+  --color-surface-apha-white-apha-30: var(--color-white-alpha-30);
+  --color-surface-apha-white-apha-40: var(--color-white-alpha-40);
+  --color-surface-apha-white-apha-50: var(--color-white-alpha-50);
+  --color-surface-apha-white-apha-60: var(--color-white-alpha-60);
+  --color-surface-apha-white-apha-70: var(--color-white-alpha-70);
+  --color-surface-apha-white-apha-80: var(--color-white-alpha-80);
+  --color-surface-apha-white-apha-90: var(--color-white-alpha-90);
+  --color-surface-apha-white-apha-pure: var(--color-pure-color-white);
+  --color-surface-apha-white-apha-inverse-5: var(--color-white-alpha-5);
+  --color-surface-apha-white-apha-inverse-10: var(--color-white-alpha-10);
+  --color-surface-apha-white-apha-inverse-20: var(--color-white-alpha-20);
+  --color-surface-apha-white-apha-inverse-30: var(--color-white-alpha-30);
+  --color-surface-apha-white-apha-inverse-40: var(--color-white-alpha-40);
+  --color-surface-apha-white-apha-inverse-50: var(--color-white-alpha-50);
+  --color-surface-apha-white-apha-inverse-60: var(--color-white-alpha-60);
+  --color-surface-apha-white-apha-inverse-70: var(--color-white-alpha-70);
+  --color-surface-apha-white-apha-inverse-80: var(--color-white-alpha-80);
+  --color-surface-apha-white-apha-inverse-90: var(--color-white-alpha-90);
+  --color-surface-apha-white-black-inverse-5: var(--color-pure-color-white);
+  --color-surface-apha-white-black-inverse-10: var(--color-pure-color-white);
+  --color-surface-apha-white-black-inverse-20: var(--color-pure-color-white);
+  --color-surface-apha-white-black-inverse-30: var(--color-pure-color-white);
+  --color-surface-apha-white-black-inverse-40: var(--color-pure-color-white);
+  --color-surface-apha-white-black-inverse-50: var(--color-pure-color-white);
+  --color-surface-apha-white-black-inverse-60: var(--color-pure-color-white);
+  --color-surface-apha-white-black-inverse-70: var(--color-pure-color-white);
+  --color-surface-apha-white-black-inverse-80: var(--color-pure-color-white);
+  --color-surface-apha-white-black-inverse-90: var(--color-white-alpha-90);
 }
