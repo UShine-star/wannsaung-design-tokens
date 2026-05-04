@@ -5,8 +5,6 @@
 [data-theme='dark-mode'] {
 
   /* Color */
-  /* High-contrast overlays or "Glass" card effects. */
-  --color-alpha-surface-alpha-surface-alpha-high: var(--color-white-alpha-40);
   --border-color-inverse-surface: var(--color-netural-100);
   /* Standard borders for cards, sections, and dividers. */
   --border-color-core-layout-default: var(--color-netural-800);
@@ -96,6 +94,8 @@
   --color-alpha-surface-alpha-surface-alpha-low: var(--color-white-alpha-10);
   /* Standard component backgrounds (e.g., search bars, tags). */
   --color-alpha-surface-alpha-surface-alpha-medium: var(--color-white-alpha-30);
+  /* High-contrast overlays or "Glass" card effects. */
+  --color-alpha-surface-alpha-surface-alpha-high: var(--color-white-alpha-40);
   /* Universal hover overlay for buttons and list items. */
   --color-alpha-interactive-alpha-state-alpha-hover: var(--color-white-alpha-10);
   /* Universal pressed/active state overlay. */
@@ -107,7 +107,7 @@
   /* Hairline dividers that disappear on dark backgrounds. */
   --border-color-alpha-subtle: var(--color-white-alpha-20);
   /* Standard borders for inputs and cards. */
-  --border-color-alpha-default: #ffffff33;
+  --border-color-alpha-default: var(--color-white-alpha-40);
   /* Accessible borders for high-contrast UI elements. */
   --border-color-alpha-strong: var(--color-white-alpha-60);
   /* Backgrounds for success alerts (allows the green to "glow"). */
