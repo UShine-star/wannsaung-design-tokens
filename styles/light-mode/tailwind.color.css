@@ -690,8 +690,6 @@
   --color-yellow-alpha-a400: #ffeb3bb2;
   /* Generated from Material Color System */
   --color-yellow-alpha-a700: #ffeb3bf2;
-  /* High-contrast overlays or "Glass" card effects. */
-  --color-alpha-surface-alpha-surface-alpha-high: #00000033;
   /* Generated from Material Color System */
   --color-black-alpha-inverse-5: #0000000d;
   /* Generated from Material Color System */
@@ -821,6 +819,8 @@
   --color-alpha-surface-alpha-surface-alpha-low: var(--color-black-alpha-10);
   /* Standard component backgrounds (e.g., search bars, tags). */
   --color-alpha-surface-alpha-surface-alpha-medium: var(--color-black-alpha-20);
+  /* High-contrast overlays or "Glass" card effects. */
+  --color-alpha-surface-alpha-surface-alpha-high: var(--color-black-alpha-40);
   /* Universal hover overlay for buttons and list items. */
   --color-alpha-interactive-alpha-state-alpha-hover: var(--color-black-alpha-5);
   /* Universal pressed/active state overlay. */
